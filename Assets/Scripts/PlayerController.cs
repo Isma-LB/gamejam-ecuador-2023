@@ -17,11 +17,16 @@ public class PlayerController : MonoBehaviour
     bool wasRightHand = false;
     HandTarget nextTarget = null;
 
+    [SerializeField] GenerarLetras scriptLetras;
+    bool letraCorrecta = false;
+
     // Update is called once per frame
     void Update()
     {
+       
+
         DetectTargets();
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(letraCorrecta){
             Debug.Log("next");
             if(wasRightHand){
                 rightHand.position = nextTarget.transform.position;
@@ -31,6 +36,7 @@ public class PlayerController : MonoBehaviour
             }
             wasRightHand = !wasRightHand;
             nextTarget.Visit();
+            letraCorrecta= false;
         }
     }
     
@@ -44,5 +50,19 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position + circlePos, circleRadius);
+    }
+    private void OnGUI()
+    {
+        Event e = Event.current;
+        if (Input.anyKeyDown && e.keyCode.ToString() != "None")
+        {
+            if(e.keyCode.ToString() == scriptLetras.letraActual && !scriptLetras.aplastado)
+            {
+                letraCorrecta = true;
+                scriptLetras.aplastado = true;
+                Debug.Log(scriptLetras.tiempoTranscurridoDesdeSpawn);
+                //EnergyScript.Instancia.IncreaseEnergy(0.1f);
+            }
+        }
     }
 }
