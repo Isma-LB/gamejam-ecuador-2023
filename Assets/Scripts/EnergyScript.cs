@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnergyScript : MonoBehaviour
@@ -61,6 +62,11 @@ public class EnergyScript : MonoBehaviour
         if (currentEnergy > 0)
         {
             currentEnergy = Mathf.Lerp(newIncreasedEnergy, 0, percentOfTime);
+        }
+        else if (currentEnergy == 0)
+        {
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 

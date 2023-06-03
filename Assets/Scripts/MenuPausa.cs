@@ -28,6 +28,6 @@ public class MenuPausa : MonoBehaviour
     }
     public void Menu() 
     {
-        SceneManager.LoadScene("Martin");
+        SceneManager.LoadScene("MenuInicio");
     }
 }
