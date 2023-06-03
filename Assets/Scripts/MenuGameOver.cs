@@ -8,7 +8,7 @@ public class MenuGameOver : MonoBehaviour
     public void Reiniciar()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Alejandro");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void MenuInicial()

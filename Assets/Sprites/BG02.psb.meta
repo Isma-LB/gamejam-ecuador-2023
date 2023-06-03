@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 28cb894510ea7f942aa4413e5ec80ee0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Planta Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1382
+      y: 329
+      width: 174
+      height: 120
+    spriteID: 60931d9fc15cef647bd4b784cccaa7e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1382, y: 329}
+    spritePosition: {x: 0, y: 0}
+  - name: Planta Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1599
+      y: 4
+      width: 265
+      height: 153
+    spriteID: d74c57f439a3df34cadd44054e65247e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1599, y: 4}
+    spritePosition: {x: 1105, y: 0}
+  - name: Barra Frente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 780
+      width: 1014
+      height: 551
+    spriteID: 5e42d9ce05f2ec04ca6626ecff80fe7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 780}
+    spritePosition: {x: 196, y: 45}
+  - name: Barritas Escalera
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2193
+      width: 1060
+      height: 394
+    spriteID: de64f094458b1454da93b50f4cddf621
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2193}
+    spritePosition: {x: 200, y: 136}
+  - name: Layer 45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2740
+      width: 1069
+      height: 32
+    spriteID: 8ecf4a76ac6b37042ae84276364ca85f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2740}
+    spritePosition: {x: 196, y: 564}
+  - name: Barra Back
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1026
+      y: 780
+      width: 1014
+      height: 498
+    spriteID: 97889dbf67910ea43b29c3b2ae2617ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1026, y: 780}
+    spritePosition: {x: 247, y: 75}
+  - name: SOL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1382
+      y: 1339
+      width: 545
+      height: 356
+    spriteID: de9b12d6d7ba98940929f8bb10dfedcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1382, y: 1339}
+    spritePosition: {x: 575, y: 412}
+  - name: Pelota
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1907
+      y: 1719
+      width: 37
+      height: 37
+    spriteID: 14c9b2f9995b5a241bf879c922ecdff2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1907, y: 1719}
+    spritePosition: {x: 813, y: 15}
+  - name: Casita
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1382
+      y: 4
+      width: 209
+      height: 317
+    spriteID: 0aaf081762380734fbfb9a917797a856
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1382, y: 4}
+    spritePosition: {x: 874, y: 116}
+  - name: BG01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2595
+      width: 1370
+      height: 137
+    spriteID: 09001845810813b49a0146455ac25dc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2595}
+    spritePosition: {x: 0, y: 0}
+  - name: BG02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1072
+      y: 2193
+      width: 962
+      height: 340
+    spriteID: a93cab287109a234abb9ed7d9c781b0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1072, y: 2193}
+    spritePosition: {x: 408, y: 46}
+  - name: BG03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1078
+      y: 1719
+      width: 821
+      height: 175
+    spriteID: befcc6afade526c4db0d872d5f8e9a89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1078, y: 1719}
+    spritePosition: {x: 0, y: 11}
+  - name: BG04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1719
+      width: 1066
+      height: 466
+    spriteID: bdec7ec05cd9ee04aac471569ac02220
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1719}
+    spritePosition: {x: 0, y: 12}
+  - name: Ciudad
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1339
+      width: 1370
+      height: 372
+    spriteID: 35d0126c41e661b438acb15bf9e42857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1339}
+    spritePosition: {x: 0, y: 122}
+  - name: Fondo cielo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1370
+      height: 768
+    spriteID: 89ac2545def1c6e43a5447fcf73306f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Planta Izq
+    spriteName: Planta Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 60931d9fc15cef647bd4b784cccaa7e4
+    layerID: 274
+    mosaicPosition: {x: 1382, y: 329}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Planta Der
+    spriteName: Planta Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d74c57f439a3df34cadd44054e65247e
+    layerID: 237
+    mosaicPosition: {x: 1599, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Barra Frente
+    spriteName: Barra Frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5e42d9ce05f2ec04ca6626ecff80fe7d
+    layerID: 200
+    mosaicPosition: {x: 4, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Barritas Escalera
+    spriteName: Barritas Escalera
+    isGroup: 0
+    parentIndex: -1
+    spriteID: de64f094458b1454da93b50f4cddf621
+    layerID: 279
+    mosaicPosition: {x: 4, y: 2193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 45
+    spriteName: Layer 45
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ecf4a76ac6b37042ae84276364ca85f
+    layerID: 285
+    mosaicPosition: {x: 4, y: 2740}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Barra Back
+    spriteName: Barra Back
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97889dbf67910ea43b29c3b2ae2617ae
+    layerID: 83
+    mosaicPosition: {x: 1026, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SOL
+    spriteName: SOL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: de9b12d6d7ba98940929f8bb10dfedcb
+    layerID: 164
+    mosaicPosition: {x: 1382, y: 1339}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pelota
+    spriteName: Pelota
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 14c9b2f9995b5a241bf879c922ecdff2
+    layerID: 277
+    mosaicPosition: {x: 1907, y: 1719}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Casita
+    spriteName: Casita
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0aaf081762380734fbfb9a917797a856
+    layerID: 278
+    mosaicPosition: {x: 1382, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG01
+    spriteName: BG01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09001845810813b49a0146455ac25dc8
+    layerID: 194
+    mosaicPosition: {x: 4, y: 2595}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG02
+    spriteName: BG02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a93cab287109a234abb9ed7d9c781b0b
+    layerID: 195
+    mosaicPosition: {x: 1072, y: 2193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG03
+    spriteName: BG03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: befcc6afade526c4db0d872d5f8e9a89
+    layerID: 196
+    mosaicPosition: {x: 1078, y: 1719}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG04
+    spriteName: BG04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bdec7ec05cd9ee04aac471569ac02220
+    layerID: 202
+    mosaicPosition: {x: 4, y: 1719}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ciudad
+    spriteName: Ciudad
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 35d0126c41e661b438acb15bf9e42857
+    layerID: 235
+    mosaicPosition: {x: 4, y: 1339}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fondo cielo
+    spriteName: Fondo cielo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89ac2545def1c6e43a5447fcf73306f0
+    layerID: 232
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638214100762117956
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

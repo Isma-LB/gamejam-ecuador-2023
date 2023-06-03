@@ -6,13 +6,14 @@ using UnityEngine.UI;
 
 public class EnergyScript : MonoBehaviour
 {
+    [SerializeField] GameObject GameOverCanvas;
     public Slider energySlider;
     public float initialEnergy = 100;
     float newIncreasedEnergy;
     public float currentEnergy;
     
-    public float energyDuration = 15;
-    private float elapsedTime;
+    public float energyDuration;
+    private float elapsedTime = 0;
     float percentOfTime;
 
     private static EnergyScript instancia;
@@ -34,9 +35,6 @@ public class EnergyScript : MonoBehaviour
         {
             // Establece esta instancia como la única instancia
             instancia = this;
-
-            // Opcional: asegurarse de que el objeto no se destruya al cambiar de escena
-            DontDestroyOnLoad(this.gameObject);
         }
     }
 
@@ -50,9 +48,10 @@ public class EnergyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ReduceEnergyOverTime();
+        
         elapsedTime += Time.deltaTime;
         percentOfTime = elapsedTime / energyDuration;
+        ReduceEnergyOverTime();
         energySlider.value = currentEnergy;
     }
 
@@ -63,10 +62,9 @@ public class EnergyScript : MonoBehaviour
         {
             currentEnergy = Mathf.Lerp(newIncreasedEnergy, 0, percentOfTime);
         }
-        else if (currentEnergy == 0)
+        else if (currentEnergy <= 0)
         {
-            SceneManager.LoadScene("GameOver");
-
+            GameOverCanvas.SetActive(true);
         }
     }
 
