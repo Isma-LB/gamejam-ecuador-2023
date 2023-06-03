@@ -35,6 +35,7 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
+        
     }
 
     void Start()
@@ -59,7 +60,7 @@ public class AudioManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //instance.PlayOneShot(sonido);
-            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            Play("PlayerDeath");
         }
     }
 }
