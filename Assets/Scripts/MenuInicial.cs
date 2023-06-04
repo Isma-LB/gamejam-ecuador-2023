@@ -8,6 +8,7 @@ public class MenuInicial : MonoBehaviour
     public void Jugar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        FindObjectOfType<AudioManager>().Play("Theme");
     }
 
     public void Salir()
