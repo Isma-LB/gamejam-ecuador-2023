@@ -10,11 +10,9 @@ public class GenerarLetras : MonoBehaviour
     private List<string>[] listaDeListasSegunElNivelDeDificultad;
 
     private int nivel = 1;
-
-    [SerializeField] float periodo = 2f;
-    public string letraActual = null;
-    public bool aplastado = false;
-    public float tiempoTranscurridoDesdeSpawn = 0;
+    public string letraForward;
+    public string letraUp;
+    public string letraDown;
 
     // Start is called before the first frame update
     void Start()
@@ -24,22 +22,24 @@ public class GenerarLetras : MonoBehaviour
             letras1,
             letras2,
             letras3
-};
-        tiempoTranscurridoDesdeSpawn = Time.time;
+        };
         GenerarLetra();
     }
 
-    // Update is called once per frame
-    void Update()
+    public string GenerarLetra()
     {
+        int random = Random.Range(0, nivel);
+        string letraNueva = listaDeListasSegunElNivelDeDificultad[random][Random.Range(0, listaDeListasSegunElNivelDeDificultad[random].Count)];
+        return letraNueva;
+    }
+    public void CleanLetras(){
+        letraForward = "";
+        letraDown = "";
+        letraUp = "";
     }
 
-    public void GenerarLetra()
+    internal bool ValidKey(string key)
     {
-        aplastado = false;
-        int random = Random.Range(0, nivel);
-        letraActual = listaDeListasSegunElNivelDeDificultad[random][Random.Range(0, listaDeListasSegunElNivelDeDificultad[random].Count)];
-        Debug.Log(letraActual);
-        
+        return key == letraUp || key == letraForward || key == letraDown;
     }
 }

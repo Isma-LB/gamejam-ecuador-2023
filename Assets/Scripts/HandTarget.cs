@@ -12,6 +12,10 @@ public class HandTarget : MonoBehaviour
             col2D.enabled = false;
         }
     }
+    public bool up = false;
+    public bool down = false;
+    public HandTarget secondOption;
+    public string key = "";
     [SerializeField] bool visited = false;
     public void Visit(){
         visited = true;

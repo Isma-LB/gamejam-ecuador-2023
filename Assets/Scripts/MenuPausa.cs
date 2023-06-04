@@ -28,7 +28,7 @@ public class MenuPausa : MonoBehaviour
             else
                 Reanudar();
         }
-        letraTM.SetText(scriptLetras.letraActual);
+        letraTM.SetText(scriptLetras.letraForward);
     }
     public void Pausa()
     {
