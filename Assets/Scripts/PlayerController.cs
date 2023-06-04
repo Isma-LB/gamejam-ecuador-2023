@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Vector3 circlePos = Vector3.zero;
     [SerializeField] float circleRadius = 5;
 
-
+    public float energiaRecargar = 0.05f;
     Collider2D[] targets; 
     bool wasRightHand = false;
     HandTarget nextTarget = null;
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
             if(scriptLetras.ValidKey(currentKey) || Input.GetKeyDown(KeyCode.Space)){
                 bool secondOption = nextTarget.secondOption && nextTarget.key != currentKey;
                 MoveHandToNext(secondOption);
-                EnergyScript.Instancia.IncreaseEnergy(0.05f);
+                EnergyScript.Instancia.IncreaseEnergy(energiaRecargar);
             }
         }
     }
@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
         }
         wasRightHand = !wasRightHand;
         nextTarget.Visit();
+        nextTarget.secondOption?.Visit();
         nextTarget = null;
     }
     void DetectTargets(){
@@ -71,7 +72,7 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < targets.Length; i++)
         {
             float distance = Vector3.SqrMagnitude(transform.position + circlePos - targets[i].transform.position);
-            if(distance < minDistance){
+            if(distance < minDistance && targets[i].transform.position.x > circlePos.x){
                 minDistance = distance;
                 targetIndex = i;
             }

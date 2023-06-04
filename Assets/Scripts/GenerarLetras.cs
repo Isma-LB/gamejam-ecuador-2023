@@ -32,7 +32,10 @@ public class GenerarLetras : MonoBehaviour
     void Update()
     {
         int score = mapManager.GetScores();
-        nivel = Mathf.FloorToInt(Mathf.Lerp(0,9,score) * 3) ;
+        if (score > 6)
+            nivel = 1;
+       else if (score > 3)
+            nivel = 2;
     }
     public string GenerarLetra()
     {

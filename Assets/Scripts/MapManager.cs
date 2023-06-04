@@ -30,6 +30,7 @@ public class MapManager : MonoBehaviour
         upBlocks = blocks.FindAll(FindUpBlock);
         downBlocks = blocks.FindAll(FindDownBlock);
         forwardBlocks = blocks.FindAll(FindForwardBlock);
+        visited.Add(Vector2.zero);
     }
     void OnValidate()
     {

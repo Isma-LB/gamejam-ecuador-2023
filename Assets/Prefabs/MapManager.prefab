@@ -300,6 +300,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 149b96a4397f1325a959f4229b035bac, type: 2}
   - {fileID: 11400000, guid: 149b96a4397f1325a959f4229b035bac, type: 2}
   playerTransform: {fileID: 0}
+  playerTransformDown: {fileID: 0}
   cameraContainer: {fileID: 19596895506007217}
   skyStart: 2
   earthStart: 2
