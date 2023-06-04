@@ -5,9 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
+    AudioManager audioManager;
+
     public void Jugar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        audioManager = FindObjectOfType<AudioManager>();
+    }
+
+    public void PlayTheme()
+    {
+        if (audioManager != null)
+        {
+            audioManager.Play("Intro");
+        }
     }
 
     public void Salir()
