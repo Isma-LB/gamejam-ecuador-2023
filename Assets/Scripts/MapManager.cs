@@ -10,6 +10,13 @@ public class MapManager : MonoBehaviour
     [SerializeField] Transform playerTransform;
     [SerializeField] PolygonCollider2D cameraContainer;
 
+    [Header("backgrounds")]
+    [SerializeField] int skyStart = 2;
+    [SerializeField] int earthStart = 2;
+    [SerializeField] GameObject skyBGPrefab;
+    [SerializeField] GameObject middleBGPrefab;
+    [SerializeField] GameObject earthBGPrefab;
+
     Vector2 currentGridCell = Vector2.zero;
 
     List<MapBlock> upBlocks;
@@ -45,6 +52,7 @@ public class MapManager : MonoBehaviour
 
     private void ChooseMapBlock(Vector2 playerPos)
     {
+        SpawnBG(playerPos);
         if(currentGridCell.x < playerPos.x){
             // go forward
             int randomIndex = Mathf.FloorToInt(UnityEngine.Random.Range(0f, forwardBlocks.Count));
@@ -61,7 +69,17 @@ public class MapManager : MonoBehaviour
             downBlocks[randomIndex].SpawnBlock(GetWorldPos(playerPos), this.transform);
         }
     }
-
+    void SpawnBG(Vector2 playerPos){
+        if(playerPos.y > skyStart){
+            Instantiate(skyBGPrefab, GetWorldPos(playerPos), Quaternion.identity, this.transform);
+        }
+        else if(playerPos.y < earthStart){
+            Instantiate(earthBGPrefab, GetWorldPos(playerPos), Quaternion.identity, this.transform);
+        }
+        else {
+            Instantiate(middleBGPrefab, GetWorldPos(playerPos), Quaternion.identity, this.transform);
+        }
+    }
     Vector2 GetGridCoordinates(Vector3 pos){
         Vector2 value;
         value.x = Mathf.Floor(pos.x / gridSize.x);

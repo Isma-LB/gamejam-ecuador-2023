@@ -301,6 +301,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 149b96a4397f1325a959f4229b035bac, type: 2}
   playerTransform: {fileID: 0}
   cameraContainer: {fileID: 19596895506007217}
+  skyStart: 2
+  earthStart: 2
+  skyBGPrefab: {fileID: 0}
+  middleBGPrefab: {fileID: 0}
+  earthBGPrefab: {fileID: 0}
 --- !u!156049354 &19596895769827110
 Grid:
   m_ObjectHideFlags: 0
