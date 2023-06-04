@@ -14,8 +14,12 @@ public class EnviarScore : MonoBehaviour
 {
 
     public GameObject nombreInput;
-    public MapManager mapManagerScript;
+    MapManager mapManagerScript;
 
+    void Start()
+    {
+        mapManagerScript = FindObjectOfType<MapManager>();
+    }
 
     // Update is called once per frame
 
