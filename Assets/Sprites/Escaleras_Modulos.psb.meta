@@ -1,0 +1,966 @@
+fileFormatVersion: 2
+guid: 6f628183b9c2cd347972e70c60b847a4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Horizontal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1000
+      width: 118
+      height: 8
+    spriteID: f5f6682a18d6369498f939e47382edfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1000}
+    spritePosition: {x: 449, y: 156}
+  - name: A Horizontal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 957
+      width: 184
+      height: 35
+    spriteID: 75158bce175f8cd42b63a1ffb7cd3108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 957}
+    spritePosition: {x: 448, y: 129}
+  - name: Vertical
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 462
+      y: 4
+      width: 9
+      height: 98
+    spriteID: 4f3524084a2a39246bc0557233e64889
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 462, y: 4}
+    spritePosition: {x: 448, y: 277}
+  - name: A Vertical
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 4
+      width: 63
+      height: 118
+    spriteID: 7d9b1c055748a5547bd4aa7af2d22e75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 4}
+    spritePosition: {x: 449, y: 255}
+  - name: Esquina Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 130
+      width: 132
+      height: 98
+    spriteID: 1ba60e2ec37a6164abac23009e542f04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 130}
+    spritePosition: {x: 233, y: 277}
+  - name: A Esquina Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 4
+      width: 185
+      height: 118
+    spriteID: 7f469f884d87d664280a4ea290efd4c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 4}
+    spritePosition: {x: 235, y: 255}
+  - name: T Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 435
+      width: 131
+      height: 187
+    spriteID: e9160e2bf47e49d479ede589e1f03bbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 435}
+    spritePosition: {x: 233, y: 36}
+  - name: A T Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 186
+      height: 208
+    spriteID: 95adad954a2c40f429a2de4d3c669a8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 234, y: 14}
+  - name: Esquina Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 236
+      width: 118
+      height: 102
+    spriteID: 80df375442bcb9142ada392b461ec2e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 236}
+    spritePosition: {x: 24, y: 273}
+  - name: A Esquina Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 630
+      width: 181
+      height: 123
+    spriteID: 4a5620613712b5a4d9b25da6bfb5b6c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 630}
+    spritePosition: {x: 27, y: 252}
+  - name: Tizq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 761
+      width: 118
+      height: 188
+    spriteID: ff528049155857245a86a36376c7308d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 761}
+    spritePosition: {x: 25, y: 46}
+  - name: A T Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 180
+      height: 207
+    spriteID: d8bce48e545e54c40ac9147e29c67fea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+    spritePosition: {x: 28, y: 25}
+  rigSpriteImportData:
+  - name: Horizontal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1000
+      width: 118
+      height: 8
+    spriteID: f2bcdea62c385824a8313ee7ea23c6f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1000}
+    spritePosition: {x: 449, y: 156}
+  - name: A Horizontal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 957
+      width: 184
+      height: 35
+    spriteID: 6c297b7155b3ed543b137d517c09c338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 957}
+    spritePosition: {x: 448, y: 129}
+  - name: Vertical
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 462
+      y: 4
+      width: 9
+      height: 98
+    spriteID: 9e98d77df4c795b42ae33c66b9b3d09c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 462, y: 4}
+    spritePosition: {x: 448, y: 277}
+  - name: A Vertical
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 4
+      width: 63
+      height: 118
+    spriteID: f25fce85592b25a4bb387ace6e8c4de1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 4}
+    spritePosition: {x: 449, y: 255}
+  - name: Esquina Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 130
+      width: 132
+      height: 98
+    spriteID: 8a56e7d00e75c0a458f318b9df666a25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 130}
+    spritePosition: {x: 233, y: 277}
+  - name: A Esquina Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 4
+      width: 185
+      height: 118
+    spriteID: bf7a4c3ba3cb94b42af13ed8017ffb61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 4}
+    spritePosition: {x: 235, y: 255}
+  - name: T Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 435
+      width: 131
+      height: 187
+    spriteID: 8be2622d6e8ec6e4ca7cfc67551a564d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 435}
+    spritePosition: {x: 233, y: 36}
+  - name: A T Der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 186
+      height: 208
+    spriteID: 8953f5ad57a8f6849a6ed657783e5292
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 234, y: 14}
+  - name: Esquina Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 236
+      width: 118
+      height: 102
+    spriteID: e50d605833e53b74d88771da2aafc64b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 236}
+    spritePosition: {x: 24, y: 273}
+  - name: A Esquina Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 630
+      width: 181
+      height: 123
+    spriteID: 1325ad76009169043a6cc60021527860
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 630}
+    spritePosition: {x: 27, y: 252}
+  - name: Tizq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 761
+      width: 118
+      height: 188
+    spriteID: c38985697556a6f40aa3cc5cc65d60c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 761}
+    spritePosition: {x: 25, y: 46}
+  - name: A T Izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 180
+      height: 207
+    spriteID: b7959645365921246adecf38cb93738a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+    spritePosition: {x: 28, y: 25}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Horizontal
+    spriteName: Horizontal
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f5f6682a18d6369498f939e47382edfd
+    layerID: 22
+    mosaicPosition: {x: 4, y: 1000}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Horizontal
+    spriteName: A Horizontal
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 75158bce175f8cd42b63a1ffb7cd3108
+    layerID: 7
+    mosaicPosition: {x: 4, y: 957}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vertical
+    spriteName: Vertical
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4f3524084a2a39246bc0557233e64889
+    layerID: 21
+    mosaicPosition: {x: 462, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Vertical
+    spriteName: A Vertical
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7d9b1c055748a5547bd4aa7af2d22e75
+    layerID: 6
+    mosaicPosition: {x: 391, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Esquina Der
+    spriteName: Esquina Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1ba60e2ec37a6164abac23009e542f04
+    layerID: 20
+    mosaicPosition: {x: 198, y: 130}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Esquina Der
+    spriteName: A Esquina Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f469f884d87d664280a4ea290efd4c3
+    layerID: 2
+    mosaicPosition: {x: 198, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: T Der
+    spriteName: T Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e9160e2bf47e49d479ede589e1f03bbf
+    layerID: 15
+    mosaicPosition: {x: 4, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A T Der
+    spriteName: A T Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95adad954a2c40f429a2de4d3c669a8e
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Esquina Izq
+    spriteName: Esquina Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80df375442bcb9142ada392b461ec2e1
+    layerID: 14
+    mosaicPosition: {x: 198, y: 236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Esquina Izq
+    spriteName: A Esquina Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4a5620613712b5a4d9b25da6bfb5b6c3
+    layerID: 5
+    mosaicPosition: {x: 4, y: 630}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tizq
+    spriteName: Tizq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff528049155857245a86a36376c7308d
+    layerID: 9
+    mosaicPosition: {x: 4, y: 761}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A T Izq
+    spriteName: A T Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d8bce48e545e54c40ac9147e29c67fea
+    layerID: 4
+    mosaicPosition: {x: 4, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  rigPSDLayers:
+  - name: Horizontal
+    spriteName: Horizontal
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f2bcdea62c385824a8313ee7ea23c6f0
+    layerID: 22
+    mosaicPosition: {x: 4, y: 1000}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Horizontal
+    spriteName: A Horizontal
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6c297b7155b3ed543b137d517c09c338
+    layerID: 7
+    mosaicPosition: {x: 4, y: 957}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vertical
+    spriteName: Vertical
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9e98d77df4c795b42ae33c66b9b3d09c
+    layerID: 21
+    mosaicPosition: {x: 462, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Vertical
+    spriteName: A Vertical
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f25fce85592b25a4bb387ace6e8c4de1
+    layerID: 6
+    mosaicPosition: {x: 391, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Esquina Der
+    spriteName: Esquina Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8a56e7d00e75c0a458f318b9df666a25
+    layerID: 20
+    mosaicPosition: {x: 198, y: 130}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Esquina Der
+    spriteName: A Esquina Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bf7a4c3ba3cb94b42af13ed8017ffb61
+    layerID: 2
+    mosaicPosition: {x: 198, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: T Der
+    spriteName: T Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8be2622d6e8ec6e4ca7cfc67551a564d
+    layerID: 15
+    mosaicPosition: {x: 4, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A T Der
+    spriteName: A T Der
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8953f5ad57a8f6849a6ed657783e5292
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Esquina Izq
+    spriteName: Esquina Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e50d605833e53b74d88771da2aafc64b
+    layerID: 14
+    mosaicPosition: {x: 198, y: 236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A Esquina Izq
+    spriteName: A Esquina Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1325ad76009169043a6cc60021527860
+    layerID: 5
+    mosaicPosition: {x: 4, y: 630}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tizq
+    spriteName: Tizq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c38985697556a6f40aa3cc5cc65d60c6
+    layerID: 9
+    mosaicPosition: {x: 4, y: 761}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: A T Izq
+    spriteName: A T Izq
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b7959645365921246adecf38cb93738a
+    layerID: 4
+    mosaicPosition: {x: 4, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f530948ed719e094697d21c20d457fe1
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting:
+  - spriteId: 00000000000000000000000000000000
+    name: Background
+    layerId: 1
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

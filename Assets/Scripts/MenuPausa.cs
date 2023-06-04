@@ -9,8 +9,6 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
-    [SerializeField] private GenerarLetras scriptLetras;
-    [SerializeField] private TextMeshProUGUI letraTM;
 
     bool pausado = false;
 
@@ -28,7 +26,6 @@ public class MenuPausa : MonoBehaviour
             else
                 Reanudar();
         }
-        letraTM.SetText(scriptLetras.letraForward);
     }
     public void Pausa()
     {
