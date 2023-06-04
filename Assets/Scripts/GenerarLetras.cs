@@ -14,6 +14,8 @@ public class GenerarLetras : MonoBehaviour
     public string letraUp;
     public string letraDown;
 
+    MapManager mapManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +26,14 @@ public class GenerarLetras : MonoBehaviour
             letras3
         };
         GenerarLetra();
+        mapManager = FindObjectOfType<MapManager>();
     }
 
+    void Update()
+    {
+        int score = mapManager.GetScores();
+        nivel = Mathf.FloorToInt(Mathf.Lerp(0,9,score) * 3) ;
+    }
     public string GenerarLetra()
     {
         int random = Random.Range(0, nivel);
