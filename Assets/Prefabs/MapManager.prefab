@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19596895346963806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.66, y: 3.3, z: -9.974577}
+  m_LocalPosition: {x: 3.2880003, y: 3.44, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -165,9 +165,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0, y: 0}
-      - {x: 16, y: 0}
-      - {x: 16, y: 8}
-      - {x: 0, y: 8}
+      - {x: 13.55, y: 0}
+      - {x: 13.55, y: 7.65}
+      - {x: 0, y: 7.65}
   m_UseDelaunayMesh: 0
 --- !u!1 &19596895647929626
 GameObject:
@@ -269,7 +269,7 @@ Transform:
   - {fileID: 19596895506007218}
   - {fileID: 19596895346963779}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &19596895769827111
 MonoBehaviour:
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff2e53eaf3e466f8bad5878065e20c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 16, y: 8}
+  gridSize: {x: 13.55, y: 7.65}
   blocks:
   - {fileID: 11400000, guid: 9a9db38dd1b4a1f6d97c9638b9b87dde, type: 2}
   - {fileID: 11400000, guid: 2fac54a2f9705ed58a2f283c3ca7517f, type: 2}
@@ -309,7 +309,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19596895769827105}
   m_Enabled: 1
-  m_CellSize: {x: 16, y: 8, z: 0}
+  m_CellSize: {x: 13.55, y: 7.65, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
