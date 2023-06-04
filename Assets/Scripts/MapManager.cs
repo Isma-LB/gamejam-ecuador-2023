@@ -8,10 +8,9 @@ public class MapManager : MonoBehaviour
     [SerializeField] Vector2 gridSize = new Vector2(16,8);
     [SerializeField] List<MapBlock> blocks;
     [SerializeField] Transform playerTransform;
-    [SerializeField] Transform cameraContainer;
+    [SerializeField] PolygonCollider2D cameraContainer;
 
     Vector2 currentGridCell = Vector2.zero;
-    MapBlock currentBlock = null;
 
     List<MapBlock> upBlocks;
     List<MapBlock> downBlocks;
@@ -22,15 +21,25 @@ public class MapManager : MonoBehaviour
         downBlocks = blocks.FindAll(FindDownBlock);
         forwardBlocks = blocks.FindAll(FindForwardBlock);
     }
-
+    void OnValidate()
+    {
+        if(cameraContainer){
+            Vector2[] colliderPoints = {
+                new Vector2(0,0),
+                new Vector2(gridSize.x,0),
+                new Vector2(gridSize.x,gridSize.y),
+                new Vector2(0,gridSize.y)
+            };
+            cameraContainer.points = colliderPoints; 
+        }
+    }
     void Update()
     {
         Vector2 playerGridCoordinates = GetGridCoordinates(playerTransform.position);
         if(currentGridCell != playerGridCoordinates){
-            Debug.Log("generate block"+playerGridCoordinates);
             ChooseMapBlock(playerGridCoordinates);
             currentGridCell = playerGridCoordinates;
-            cameraContainer.position = GetWorldPos(playerGridCoordinates);
+            cameraContainer.transform.position = GetWorldPos(playerGridCoordinates);
         }
     }
 
@@ -42,12 +51,12 @@ public class MapManager : MonoBehaviour
             forwardBlocks[randomIndex].SpawnBlock(GetWorldPos(playerPos), this.transform);
         }
         else if(currentGridCell.y < playerPos.y){
-            // go forward
+            // go up
             int randomIndex = Mathf.FloorToInt(UnityEngine.Random.Range(0f, upBlocks.Count));
             upBlocks[randomIndex].SpawnBlock(GetWorldPos(playerPos), this.transform);
         }
         else if(currentGridCell.y > playerPos.y){
-            // go forward
+            // go down
             int randomIndex = Mathf.FloorToInt(UnityEngine.Random.Range(0f, downBlocks.Count));
             downBlocks[randomIndex].SpawnBlock(GetWorldPos(playerPos), this.transform);
         }
