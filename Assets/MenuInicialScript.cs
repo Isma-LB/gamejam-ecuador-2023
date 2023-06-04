@@ -6,6 +6,7 @@ public class MenuInicialScript : MonoBehaviour
 {
     public void IrAMenuInicial()
     {
+        Debug.Log("Loading Scene");
         SceneManager.LoadScene("MenuInicio");
     }
 }
