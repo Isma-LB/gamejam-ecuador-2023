@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 89e3de969c4dfa94b82b041db14a15c9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Estalactitas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: 780
+      width: 1327
+      height: 405
+    spriteID: 75704795c78e12543a9a6a5e4e98f1eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2760, y: 780}
+    spritePosition: {x: 12, y: 363}
+  - name: Barra Front
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1376
+      y: 1828
+      width: 1370
+      height: 8
+    spriteID: 0452cd3286cd13c4b95be9f6da498d2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1376, y: 1828}
+    spritePosition: {x: 0, y: 588}
+  - name: BARRITAS TODAS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: 1478
+      width: 1324
+      height: 32
+    spriteID: 41b2c740891464642b69ce3d50323976
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2760, y: 1478}
+    spritePosition: {x: 13, y: 564}
+  - name: Barra Back
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1376
+      y: 1844
+      width: 1370
+      height: 8
+    spriteID: b33c61d1a4b507c44989d4d1aa9e509a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1376, y: 1844}
+    spritePosition: {x: 0, y: 564}
+  - name: Luz frente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 733
+      y: 1971
+      width: 1370
+      height: 205
+    spriteID: e9c5e1c14a8a4eb4b8ad912767efa819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 733, y: 1971}
+    spritePosition: {x: 0, y: 0}
+  - name: Estalagmitas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1556
+      width: 1364
+      height: 407
+    spriteID: e68f5f6d3a7a1bf48b344943c499e214
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1556}
+    spritePosition: {x: 6, y: 0}
+  - name: Humo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1971
+      width: 721
+      height: 739
+    spriteID: bd44a9f405f532a44a0c960294280fce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -34, y: 1971}
+    spritePosition: {x: 649, y: 0}
+  - name: Burbujas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2754
+      y: 1556
+      width: 1166
+      height: 251
+    spriteID: 12d7c85242c0a1142935b2256563160f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2754, y: 1556}
+    spritePosition: {x: 156, y: 0}
+  - name: Ambiente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1370
+      height: 768
+    spriteID: f4c4d02521ad5f14d8222c65989add6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Luz Fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: 4
+      width: 1269
+      height: 528
+    spriteID: 12b51e8fd3562eb448b0ebc03e1c9f14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2760, y: 4}
+    spritePosition: {x: 101, y: 0}
+  - name: Piedras Lava
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: 1193
+      width: 1329
+      height: 277
+    spriteID: dfbd27b40a52ffb4d9307588b2727dc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2760, y: 1193}
+    spritePosition: {x: 0, y: 164}
+  - name: Suelo01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: 540
+      width: 1185
+      height: 223
+    spriteID: 76f9219c8242d364fbc683a34ef9f517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2760, y: 540}
+    spritePosition: {x: 185, y: 21}
+  - name: Suelo02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2754
+      y: 1815
+      width: 1276
+      height: 144
+    spriteID: 1b535acc6d9864d4b87ddded5e4d9e34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2754, y: 1815}
+    spritePosition: {x: 56, y: 47}
+  - name: Cueva
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1382
+      y: 4
+      width: 1370
+      height: 768
+    spriteID: 18dcda5259a215343bd8221ab0e11c70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1382, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Magma
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1376
+      y: 1556
+      width: 1370
+      height: 264
+    spriteID: 04213a6c002e80c47babd5c3fd28f023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1376, y: 1556}
+    spritePosition: {x: 0, y: 0}
+  - name: Fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 780
+      width: 1370
+      height: 768
+    spriteID: bc18e98a7e0291849ad0332522aebcba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 780}
+    spritePosition: {x: 0, y: 0}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1382
+      y: 780
+      width: 1370
+      height: 768
+    spriteID: f812effa7c4ce9146b278786eddbee73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1382, y: 780}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Estalactitas
+    spriteName: Estalactitas
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 75704795c78e12543a9a6a5e4e98f1eb
+    layerID: 195
+    mosaicPosition: {x: 2760, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Barra Front
+    spriteName: Barra Front
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0452cd3286cd13c4b95be9f6da498d2f
+    layerID: 84
+    mosaicPosition: {x: 1376, y: 1828}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BARRITAS TODAS
+    spriteName: BARRITAS TODAS
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 41b2c740891464642b69ce3d50323976
+    layerID: 149
+    mosaicPosition: {x: 2760, y: 1478}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Barra Back
+    spriteName: Barra Back
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b33c61d1a4b507c44989d4d1aa9e509a
+    layerID: 83
+    mosaicPosition: {x: 1376, y: 1844}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Luz frente
+    spriteName: Luz frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e9c5e1c14a8a4eb4b8ad912767efa819
+    layerID: 206
+    mosaicPosition: {x: 733, y: 1971}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Estalagmitas
+    spriteName: Estalagmitas
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e68f5f6d3a7a1bf48b344943c499e214
+    layerID: 196
+    mosaicPosition: {x: 4, y: 1556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BG
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 92e3d42f378bbb74ca88d8c2883db6c4
+    layerID: 114
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Humo
+    spriteName: Humo
+    isGroup: 0
+    parentIndex: 6
+    spriteID: bd44a9f405f532a44a0c960294280fce
+    layerID: 247
+    mosaicPosition: {x: 4, y: 1971}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Burbujas
+    spriteName: Burbujas
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 12d7c85242c0a1142935b2256563160f
+    layerID: 228
+    mosaicPosition: {x: 2754, y: 1556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ambiente
+    spriteName: Ambiente
+    isGroup: 0
+    parentIndex: 6
+    spriteID: f4c4d02521ad5f14d8222c65989add6a
+    layerID: 246
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Luz Fondo
+    spriteName: Luz Fondo
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 12b51e8fd3562eb448b0ebc03e1c9f14
+    layerID: 232
+    mosaicPosition: {x: 2760, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Piedras Lava
+    spriteName: Piedras Lava
+    isGroup: 0
+    parentIndex: 6
+    spriteID: dfbd27b40a52ffb4d9307588b2727dc3
+    layerID: 194
+    mosaicPosition: {x: 2760, y: 1193}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Suelo01
+    spriteName: Suelo01
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 76f9219c8242d364fbc683a34ef9f517
+    layerID: 198
+    mosaicPosition: {x: 2760, y: 540}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Suelo02
+    spriteName: Suelo02
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 1b535acc6d9864d4b87ddded5e4d9e34
+    layerID: 197
+    mosaicPosition: {x: 2754, y: 1815}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cueva
+    spriteName: Cueva
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 18dcda5259a215343bd8221ab0e11c70
+    layerID: 234
+    mosaicPosition: {x: 1382, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Magma
+    spriteName: Magma
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 04213a6c002e80c47babd5c3fd28f023
+    layerID: 235
+    mosaicPosition: {x: 1376, y: 1556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fondo
+    spriteName: Fondo
+    isGroup: 0
+    parentIndex: 6
+    spriteID: bc18e98a7e0291849ad0332522aebcba
+    layerID: 223
+    mosaicPosition: {x: 4, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f812effa7c4ce9146b278786eddbee73
+    layerID: 1
+    mosaicPosition: {x: 1382, y: 780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

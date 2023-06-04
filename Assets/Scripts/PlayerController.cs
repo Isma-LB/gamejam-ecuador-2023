@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     HandTarget nextTarget = null;
 
     [SerializeField] GenerarLetras scriptLetras;
-    bool letraCorrecta = false;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +27,7 @@ public class PlayerController : MonoBehaviour
         if(Input.anyKeyDown){
             string currentKey = GetCurrentKey();
             if(scriptLetras.ValidKey(currentKey) || Input.GetKeyDown(KeyCode.Space)){
-                bool secondOption = nextTarget.key != currentKey;
+                bool secondOption = nextTarget.secondOption && nextTarget.key != currentKey;
                 MoveHandToNext(secondOption);
                 EnergyScript.Instancia.IncreaseEnergy(0.05f);
             }
@@ -110,26 +109,10 @@ public class PlayerController : MonoBehaviour
                 scriptLetras.letraForward = target.secondOption.key;
             }
         }
-        //Debug.Log("Letras up:" + scriptLetras.letraUp + " down:" + scriptLetras.letraDown + "fwr: " + scriptLetras.letraForward);
     }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position + circlePos, circleRadius);
     }
-    // private void OnGUI()
-    // {
-    //     Event e = Event.current;
-    //     if (Input.anyKeyDown && e.keyCode.ToString() != "None")
-    //     {
-    //             Debug.Log("Second Target"+nextTarget.secondOption);
-    //         if(e.keyCode.ToString() == scriptLetras.letraActual)
-    //         {
-    //             letraCorrecta = true;
-    //             Debug.Log(scriptLetras.tiempoTranscurridoDesdeSpawn);
-    //             scriptLetras.GenerarLetra();
-    //             //EnergyScript.Instancia.IncreaseEnergy(0.1f);
-    //         }
-    //     }
-    // }
 }
