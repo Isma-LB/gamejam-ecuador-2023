@@ -605,6 +605,7 @@ GameObject:
   - component: {fileID: 1139343219962449527}
   - component: {fileID: 1139343219962449525}
   - component: {fileID: 1139343219962449526}
+  - component: {fileID: 3449492352463526704}
   m_Layer: 5
   m_Name: MenuGameOver
   m_TagString: Untagged
@@ -672,6 +673,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3449492352463526704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139343219962449520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff2e53eaf3e466f8bad5878065e20c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 16, y: 8}
+  blocks: []
+  playerTransform: {fileID: 0}
+  cameraContainer: {fileID: 0}
+  skyStart: 2
+  earthStart: 2
+  skyBGPrefab: {fileID: 0}
+  middleBGPrefab: {fileID: 0}
+  earthBGPrefab: {fileID: 0}
 --- !u!1 &1139343219970829727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,6 +1827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nombreInput: {fileID: 3441719905305380756}
+  mapManagerScript: {fileID: 3449492352463526704}
 --- !u!1 &8597722338952785949
 GameObject:
   m_ObjectHideFlags: 0

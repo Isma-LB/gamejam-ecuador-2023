@@ -110,4 +110,8 @@ public class MapManager : MonoBehaviour
     private static bool FindForwardBlock(MapBlock block){
         return block.back;
     }
+    public int GetScores()
+    {
+        return Mathf.RoundToInt(currentGridCell.magnitude);
+    }
 }

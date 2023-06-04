@@ -14,6 +14,7 @@ public class EnviarScore : MonoBehaviour
 {
 
     public GameObject nombreInput;
+    public MapManager mapManagerScript;
 
 
     // Update is called once per frame
@@ -22,8 +23,6 @@ public class EnviarScore : MonoBehaviour
     public void EnviarScoreApi()
     {
         StartCoroutine(SendPostRequest());
-
-
     }
     private IEnumerator SendPostRequest()
     {
@@ -31,7 +30,7 @@ public class EnviarScore : MonoBehaviour
         string url = "https://score-game-jam-azure.vercel.app/api/scores";
 
         string name = nombreInput.GetComponent<TMP_InputField>().text;
-        int score = 10;
+        int score = mapManagerScript.GetScores();
 
         string jsonData = $"{{\"name\": \"{name}\", \"score\": {score}}}";
 
