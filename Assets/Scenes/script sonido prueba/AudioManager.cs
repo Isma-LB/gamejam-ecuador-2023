@@ -41,7 +41,7 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        Play("Theme");
+        Play("Intro");
         instance = GetComponent<AudioManager>();
     }
 
