@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
                 scriptLetras.letraForward = target.secondOption.key;
             }
         }
-        Debug.Log("Letras up:" + scriptLetras.letraUp + " down:" + scriptLetras.letraDown + "fwr: " + scriptLetras.letraForward);
+        //Debug.Log("Letras up:" + scriptLetras.letraUp + " down:" + scriptLetras.letraDown + "fwr: " + scriptLetras.letraForward);
     }
     void OnDrawGizmosSelected()
     {
