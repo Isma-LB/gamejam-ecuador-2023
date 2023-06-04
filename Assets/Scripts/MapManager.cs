@@ -8,8 +8,7 @@ public class MapManager : MonoBehaviour
     [SerializeField] Vector2 gridSize = new Vector2(16,8);
     [SerializeField] List<MapBlock> blocks;
     [SerializeField] Transform playerTransform;
-    // [SerializeField] Transform playerTransformUP;
-    // [SerializeField] Transform playerTransformDOWN;
+    [SerializeField] Transform playerTransformDown;
     [SerializeField] PolygonCollider2D cameraContainer;
 
     [Header("backgrounds")]
@@ -47,11 +46,18 @@ public class MapManager : MonoBehaviour
     void Update()
     {
         Vector2 playerGridCoordinates = GetGridCoordinates(playerTransform.position);
+        Vector2 playerDownGridCoordinates = GetGridCoordinates(playerTransformDown.position);
         if(currentGridCell != playerGridCoordinates && !visited.Contains(playerGridCoordinates)){
             ChooseMapBlock(playerGridCoordinates);
             currentGridCell = playerGridCoordinates;
             cameraContainer.transform.position = GetWorldPos(playerGridCoordinates);
-        }
+        };
+        if(currentGridCell != playerDownGridCoordinates && !visited.Contains(playerDownGridCoordinates)){
+            ChooseMapBlock(playerDownGridCoordinates);
+            currentGridCell = playerDownGridCoordinates;
+            cameraContainer.transform.position = GetWorldPos(playerDownGridCoordinates);
+        };
+        
     }
 
     private void ChooseMapBlock(Vector2 playerPos)
