@@ -1,6 +1,7 @@
-using UnityEngine.Audio;
-using UnityEngine;
 using System;
+using UnityEngine;
+using UnityEngine.Audio;
+using UnityEditor;
 
 
 public class AudioManager : MonoBehaviour
@@ -8,8 +9,8 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
 
     public AudioClip sonido;
-
-    public static AudioManager instance;
+    
+    public static AudioManager instance; 
 
     // Start is called before the first frame update
     void Awake()
@@ -57,6 +58,7 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
+     
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //instance.PlayOneShot(sonido);

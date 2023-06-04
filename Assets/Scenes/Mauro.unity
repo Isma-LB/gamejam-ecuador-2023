@@ -267,16 +267,17 @@ MonoBehaviour:
   sounds:
   - name: PlayerDeath
     clip: {fileID: 8300000, guid: 85a716b3512982c41a7fb075e2aa2e7d, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: dba4f7b230747ac4cb55785a9eb3244b, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 1
+    pitch: 1
     loop: 1
     source: {fileID: 0}
+  sonido: {fileID: 0}
 --- !u!1 &1683690262
 GameObject:
   m_ObjectHideFlags: 0

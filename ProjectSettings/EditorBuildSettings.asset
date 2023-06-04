@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Martin.unity
     guid: a93a59dae57e7084a92d49df8f52a38c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sample Scene.unity
     guid: 478ca1d1e6570c84fa689a0873bd12c6
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MenuInicio.unity
+    guid: b1ecf6e064d73e84ba8c047aabe25181
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 052245cd6c68ef94da5f7c13625d71fb
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 91f183db05a088a47b244855660176f2
   m_configObjects: {}

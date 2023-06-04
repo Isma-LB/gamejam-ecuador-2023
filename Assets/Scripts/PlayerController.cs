@@ -23,8 +23,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-
         DetectTargets();
         if(letraCorrecta){
             Debug.Log("next");
@@ -37,6 +35,10 @@ public class PlayerController : MonoBehaviour
             wasRightHand = !wasRightHand;
             nextTarget.Visit();
             letraCorrecta= false;
+            EnergyScript.Instancia.IncreaseEnergy(0.05f);
+            //Debug.Log(Time.time - scriptLetras.tiempoTranscurridoDesdeSpawn);
+            //scriptLetras.tiempoTranscurridoDesdeSpawn = Time.time;
+
         }
     }
     
@@ -61,6 +63,7 @@ public class PlayerController : MonoBehaviour
                 letraCorrecta = true;
                 scriptLetras.aplastado = true;
                 Debug.Log(scriptLetras.tiempoTranscurridoDesdeSpawn);
+                scriptLetras.GenerarLetra();
                 //EnergyScript.Instancia.IncreaseEnergy(0.1f);
             }
         }
