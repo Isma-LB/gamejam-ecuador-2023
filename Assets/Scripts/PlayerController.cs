@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
             wasRightHand = !wasRightHand;
             nextTarget.Visit();
             letraCorrecta= false;
-            EnergyScript.Instancia.IncreaseEnergy(0.01f);
+            EnergyScript.Instancia.IncreaseEnergy(0.05f);
             //Debug.Log(Time.time - scriptLetras.tiempoTranscurridoDesdeSpawn);
             //scriptLetras.tiempoTranscurridoDesdeSpawn = Time.time;
 

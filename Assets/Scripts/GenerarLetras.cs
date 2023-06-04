@@ -9,7 +9,7 @@ public class GenerarLetras : MonoBehaviour
     private List<string> letras3 = new List<string>() { "U", "R", "T", "Y","F","G","H","V","B","N" };
     private List<string>[] listaDeListasSegunElNivelDeDificultad;
 
-    private int nivel = 3;
+    private int nivel = 1;
 
     [SerializeField] float periodo = 2f;
     public string letraActual = null;

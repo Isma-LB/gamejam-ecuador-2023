@@ -74,11 +74,12 @@ public class EnergyScript : MonoBehaviour
         float percentOfTotalEnergy = initialEnergy * percent;
 
         float newEnergy = percentOfTotalEnergy + currentEnergy > initialEnergy ? initialEnergy : percentOfTotalEnergy + currentEnergy;
-
+        energyDuration = currentEnergy / newIncreasedEnergy * energyDuration;
         currentEnergy = newEnergy;
         newIncreasedEnergy = newEnergy;
         elapsedTime = 0;
-        energyDuration = newEnergy / newIncreasedEnergy * energyDuration;
+        
+
     }
 
 }
