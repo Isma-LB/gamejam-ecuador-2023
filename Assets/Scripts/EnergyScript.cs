@@ -11,8 +11,10 @@ public class EnergyScript : MonoBehaviour
     public float initialEnergy = 100;
     float newIncreasedEnergy;
     public float currentEnergy;
-    
-    public float energyDuration;
+
+    public float energyDuration = 10;
+
+    public float energyDurationDelta;
     private float elapsedTime = 0;
     float percentOfTime;
 
@@ -43,14 +45,15 @@ public class EnergyScript : MonoBehaviour
     {
         currentEnergy = initialEnergy;
         newIncreasedEnergy = initialEnergy;
+        energyDurationDelta = energyDuration;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         elapsedTime += Time.deltaTime;
-        percentOfTime = elapsedTime / energyDuration;
+        percentOfTime = elapsedTime / energyDurationDelta;
         ReduceEnergyOverTime();
         energySlider.value = currentEnergy;
     }
@@ -74,11 +77,11 @@ public class EnergyScript : MonoBehaviour
         float percentOfTotalEnergy = initialEnergy * percent;
 
         float newEnergy = percentOfTotalEnergy + currentEnergy > initialEnergy ? initialEnergy : percentOfTotalEnergy + currentEnergy;
-        energyDuration = currentEnergy / newIncreasedEnergy * energyDuration;
+        energyDurationDelta = currentEnergy / newEnergy * energyDuration;
         currentEnergy = newEnergy;
         newIncreasedEnergy = newEnergy;
         elapsedTime = 0;
-        
+
 
     }
 
