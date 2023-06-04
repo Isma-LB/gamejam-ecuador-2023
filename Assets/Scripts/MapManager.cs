@@ -8,6 +8,8 @@ public class MapManager : MonoBehaviour
     [SerializeField] Vector2 gridSize = new Vector2(16,8);
     [SerializeField] List<MapBlock> blocks;
     [SerializeField] Transform playerTransform;
+    // [SerializeField] Transform playerTransformUP;
+    // [SerializeField] Transform playerTransformDOWN;
     [SerializeField] PolygonCollider2D cameraContainer;
 
     [Header("backgrounds")]
@@ -18,6 +20,8 @@ public class MapManager : MonoBehaviour
     [SerializeField] GameObject earthBGPrefab;
 
     Vector2 currentGridCell = Vector2.zero;
+
+    List<Vector2> visited = new List<Vector2>();
 
     List<MapBlock> upBlocks;
     List<MapBlock> downBlocks;
@@ -43,7 +47,7 @@ public class MapManager : MonoBehaviour
     void Update()
     {
         Vector2 playerGridCoordinates = GetGridCoordinates(playerTransform.position);
-        if(currentGridCell != playerGridCoordinates){
+        if(currentGridCell != playerGridCoordinates && !visited.Contains(playerGridCoordinates)){
             ChooseMapBlock(playerGridCoordinates);
             currentGridCell = playerGridCoordinates;
             cameraContainer.transform.position = GetWorldPos(playerGridCoordinates);
@@ -53,6 +57,7 @@ public class MapManager : MonoBehaviour
     private void ChooseMapBlock(Vector2 playerPos)
     {
         SpawnBG(playerPos);
+        visited.Add(playerPos);
         if(currentGridCell.x < playerPos.x){
             // go forward
             int randomIndex = Mathf.FloorToInt(UnityEngine.Random.Range(0f, forwardBlocks.Count));
