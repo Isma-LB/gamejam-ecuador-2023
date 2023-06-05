@@ -15,10 +15,13 @@ public class EnviarScore : MonoBehaviour
 
     public GameObject nombreInput;
     MapManager mapManagerScript;
+    [SerializeField] TextMeshProUGUI scoreNumber;
 
     void Start()
     {
         mapManagerScript = FindObjectOfType<MapManager>();
+        int score = mapManagerScript.GetScores();
+        scoreNumber.text = score.ToString();
     }
 
     // Update is called once per frame
@@ -28,6 +31,11 @@ public class EnviarScore : MonoBehaviour
     {
         StartCoroutine(SendPostRequest());
     }
+    void Update()
+    {
+        // int score = mapManagerScript.GetScores();
+        // scoreNumber.text = score.ToString();
+    }
     private IEnumerator SendPostRequest()
     {
         // Define the URL and JSON data
@@ -35,6 +43,7 @@ public class EnviarScore : MonoBehaviour
 
         string name = nombreInput.GetComponent<TMP_InputField>().text;
         int score = mapManagerScript.GetScores();
+
 
         string jsonData = $"{{\"name\": \"{name}\", \"score\": {score}}}";
 
