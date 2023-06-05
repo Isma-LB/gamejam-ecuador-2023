@@ -31,11 +31,11 @@ public class GenerarLetras : MonoBehaviour
 
     void Update()
     {
-        int score = mapManager.GetScores();
-        if (score > 6)
-            nivel = 1;
-       else if (score > 3)
-            nivel = 2;
+       // int score = mapManager.GetScores();
+       // if (score > 6)
+       //     nivel = 1;
+       //else if (score > 3)
+       //     nivel = 2;
     }
     public string GenerarLetra()
     {
