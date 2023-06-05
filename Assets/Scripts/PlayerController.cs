@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         DetectTargets();
-        if(Input.anyKeyDown){
+        if(Input.anyKeyDown && nextTarget){
             string currentKey = GetCurrentKey();
             if(scriptLetras.ValidKey(currentKey) || Input.GetKeyDown(KeyCode.Space)){
                 bool secondOption = nextTarget.secondOption && nextTarget.key != currentKey;
