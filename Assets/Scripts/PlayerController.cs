@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
     Collider2D[] targets; 
     bool wasRightHand = false;
     HandTarget nextTarget = null;
-
     [SerializeField] GenerarLetras scriptLetras;
 
     // Update is called once per frame

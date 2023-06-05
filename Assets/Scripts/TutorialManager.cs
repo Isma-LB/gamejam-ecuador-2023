@@ -19,6 +19,8 @@ public class TutorialManager : MonoBehaviour
     }
 
     void LoadLevel(){
+        // save that you completed the tutorial 
+        PlayerPrefs.SetInt(PLAYER_PREFS_KEY, 1);
         //load next scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
